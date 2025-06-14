@@ -1,4 +1,4 @@
-# mongojson-converter-cli
+# mongo-json-converter-rust-cli
 
 **mongojson-converter** is a CLI utility written in Rust that converts MongoDB-exported JSON into clean, standard JSON. It transforms special MongoDB types like `NumberDouble`, `NumberInt`, `NumberLong`,`oid` and `date` to `ISODate` into their native JSON equivalents, making the data easier to work with in systems expecting valid JSON.
 
